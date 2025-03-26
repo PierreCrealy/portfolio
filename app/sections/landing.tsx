@@ -65,7 +65,7 @@ export function Landing()
                             <div className="flex items-center gap-2 absolute -top-10 left-0">
                                 <div className="w-8 h-8 rounded-full overflow-hidden">
                                     <Image
-                                        src="/profil.jpg?height=32&width=32"
+                                        src="assets/profil.jpg?height=32&width=32"
                                         alt="Profile"
                                         width={32}
                                         height={32}

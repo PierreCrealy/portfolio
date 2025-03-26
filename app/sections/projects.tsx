@@ -12,7 +12,7 @@ export function Projects() {
         {
             title: "Click'n'Miam",
             description: "Application de commande pour repas étudiants.",
-            image: "/click_n_miam.svg?height=200&width=350",
+            image: "assets/click_n_miam.svg?height=200&width=350",
             tags: ["React", "Spring Boot", "PostgreSql"],
             github: "#",
             demo: "#",
@@ -20,7 +20,7 @@ export function Projects() {
         {
             title: "Pension la Bizière",
             description: "Application de gestion et d'organisation pour une écurie de propriétaire",
-            image: "/biziere.png?height=200&width=350",
+            image: "assets/biziere.png?height=200&width=350",
             tags: ["Laravel", "Filament", "MySql"],
             github: "#",
             demo: "#",

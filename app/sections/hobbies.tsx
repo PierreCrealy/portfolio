@@ -23,7 +23,7 @@ export function Hobbies() {
                                 Astronomie
                             </Badge>
                             <Image
-                                src="/moon.jpg?height=400&width=600"
+                                src="assets/moon.jpg?height=400&width=600"
                                 alt="Office space"
                                 width={600}
                                 height={400}
@@ -37,7 +37,7 @@ export function Hobbies() {
                                 Jeux
                             </Badge>
                             <Image
-                                src="/destiny.jpg?height=200&width=300"
+                                src="assets/destiny.jpg?height=200&width=300"
                                 alt="Developer"
                                 width={300}
                                 height={200}
@@ -52,7 +52,7 @@ export function Hobbies() {
                                     Lego
                                 </Badge>
                                 <Image
-                                    src="/lego.jpg?height=300&width=300"
+                                    src="assets/lego.jpg?height=300&width=300"
                                     alt="Team working"
                                     width={300}
                                     height={300}
@@ -66,7 +66,7 @@ export function Hobbies() {
                                     Impression 3D
                                 </Badge>
                                 <Image
-                                    src="/impression_3d.jpg?height=300&width=300"
+                                    src="assets/impression_3d.jpg?height=300&width=300"
                                     alt="Team working"
                                     width={300}
                                     height={300}

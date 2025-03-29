@@ -14,16 +14,14 @@ export function Projects() {
             description: "Application de commande pour repas étudiants.",
             image: "assets/click_n_miam.svg?height=200&width=350",
             tags: ["React", "Spring Boot", "PostgreSql"],
-            github: "#",
-            demo: "#",
+            github: "https://github.com/Click-n-miam",
         },
         {
             title: "Pension la Bizière",
             description: "Application de gestion et d'organisation pour une écurie de propriétaire",
             image: "assets/biziere.png?height=200&width=350",
             tags: ["Laravel", "Filament", "MySql"],
-            github: "#",
-            demo: "#",
+            github: "https://github.com/PierreCrealy/biz_filament",
         },
     ];
 
@@ -33,7 +31,7 @@ export function Projects() {
                 <AnimateInView animation="slideUp">
                     <div className="flex items-center gap-4 mb-12">
                         <h2 className="text-4xl md:text-5xl font-black">PROJETS</h2>
-                        <div className="h-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 flex-grow rounded-full"></div>
+                        <div className="h-2 bg-gradient-to-r from-pink-500 via-blue-500 to-green-500 flex-grow rounded-full"></div>
                     </div>
                 </AnimateInView>
 
@@ -62,15 +60,6 @@ export function Projects() {
                                         >
                                             <Github size={16} />
                                             <span className="sr-only">GitHub</span>
-                                        </Link>
-                                        <Link
-                                            href={project.demo}
-                                            className="bg-primary/80 hover:bg-primary text-white p-2 rounded-full transition-colors"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
-                                            <ExternalLink size={16} />
-                                            <span className="sr-only">Live Demo</span>
                                         </Link>
                                     </div>
                                 </div>

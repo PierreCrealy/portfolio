@@ -39,7 +39,7 @@ export function Services() {
             <section id="services" className="container mx-auto px-4">
                 <AnimateInView animation="slideUp">
                     <div className="flex items-center gap-4 mb-12">
-                        <h2 className="text-4xl md:text-5xl font-black">MES SERVICES</h2>
+                        <h2 className="text-4xl md:text-5xl font-black">COMPÉTENCES</h2>
                         <div className="h-2 bg-gradient-to-r from-pink-500 via-blue-500 to-green-500 flex-grow rounded-full"></div>
                     </div>
                 </AnimateInView>
@@ -48,10 +48,7 @@ export function Services() {
                     <AnimateInView animation="fadeIn" delay={0.1}>
                         <motion.div whileHover={{ y: -10 }} transition={{ type: "spring", stiffness: 300 }}>
                             <Card className="p-6 h-full">
-                                <h3 className="text-xl font-bold mb-1">01</h3>
-                                <h4 className="text-xl font-bold uppercase mb-4">FRONTEND</h4>
-                                <p className="text-sm text-muted-foreground mb-4">Thinking about text...</p>
-                                <p className="text-xs text-muted-foreground">Thinking about text...</p>
+                                <h3 className="text-xl font-bold mb-1">01 / FRONTEND</h3>
                             </Card>
                         </motion.div>
                     </AnimateInView>
@@ -59,10 +56,7 @@ export function Services() {
                     <AnimateInView animation="fadeIn" delay={0.2}>
                         <motion.div whileHover={{ y: -10 }} transition={{ type: "spring", stiffness: 300 }}>
                             <Card className="p-6 h-full">
-                                <h3 className="text-xl font-bold mb-1">02</h3>
-                                <h4 className="text-xl font-bold uppercase mb-4">BACKEND</h4>
-                                <p className="text-sm text-muted-foreground mb-4">Thinking about text...</p>
-                                <p className="text-xs text-muted-foreground">Thinking about text...</p>
+                                <h3 className="text-xl font-bold mb-1">02 / BACKEND</h3>
                             </Card>
                         </motion.div>
                     </AnimateInView>
@@ -70,10 +64,7 @@ export function Services() {
                     <AnimateInView animation="fadeIn" delay={0.3}>
                         <motion.div whileHover={{ y: -10 }} transition={{ type: "spring", stiffness: 300 }}>
                             <Card className="p-6 h-full">
-                                <h3 className="text-xl font-bold mb-1">03</h3>
-                                <h4 className="text-xl font-bold uppercase mb-4">BASES DE DONNÉES</h4>
-                                <p className="text-sm text-muted-foreground mb-4">Thinking about text...</p>
-                                <p className="text-xs text-muted-foreground">Thinking about text...</p>
+                                <h3 className="text-xl font-bold mb-1">03 / BASES DE DONNÉES</h3>
                             </Card>
                         </motion.div>
                     </AnimateInView>
@@ -82,11 +73,12 @@ export function Services() {
 
                 <AnimateInView animation="fadeIn">
                     <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 md:p-10 mt-12">
-                        <div className="grid grid-cols-2 gap-4">
+                        <div className="grid md:grid-cols-1 gap-4">
                             <div className="col-span-3 md:col-span-1">
                                 <Badge className="bg-indigo-600 mb-4">Outils</Badge>
                             </div>
-                            <div className="col-span-3 md:col-span-2 grid grid-cols-6 gap-4">
+
+                            <div className="col-span-3 grid md:grid-cols-6 grid-cols-3 gap-4">
                                 {images.map((image, i) => (
                                     <motion.div
                                         key={i}

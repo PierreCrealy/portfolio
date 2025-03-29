@@ -16,9 +16,9 @@ export function Navbar()
 
                 </div>
                 <div className="flex items-center gap-2">
-                    <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                        <Button size="sm">Carte de visite</Button>
-                    </motion.div>
+                    {/*<motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>*/}
+                    {/*    <Button size="sm">Carte de visite</Button>*/}
+                    {/*</motion.div>*/}
                 </div>
             </div>
         </nav>

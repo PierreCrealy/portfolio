@@ -6,6 +6,7 @@ import {Button} from "@/components/ui/button";
 import Image from "next/image";
 import {Star} from "lucide-react";
 import {GridBackground} from "@/components/ui/grid-background";
+import Link from "next/link";
 
 export function Landing()
 {
@@ -48,9 +49,11 @@ export function Landing()
                             <p className="text-lg text-muted-foreground">L'usage de nos outils nous définissent.</p>
                             <div className="flex items-center gap-4">
                                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                                    <Button className="rounded-full">
-                                        Contactez-moi
-                                    </Button>
+                                    <Link href="/docs/cv_pierre_bournazel_2025.pdf" download="pierre_bournazel_cv_2025.pdf" className="inline-block">
+                                        <Button className="rounded-full">
+                                            Télécharger mon CV
+                                        </Button>
+                                    </Link>
                                 </motion.div>
                                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                                     <Button variant="outline" className="rounded-full">
@@ -62,7 +65,7 @@ export function Landing()
                     </AnimateInView>
                     <AnimateInView animation="fadeIn" delay={0.4}>
                         <div className="relative">
-                            <div className="flex items-center gap-2 absolute -top-10 left-0">
+                            <div className="flex items-center gap-2 mb-2">
                                 <div className="w-8 h-8 rounded-full overflow-hidden">
                                     <Image
                                         src="assets/profil.jpg?height=32&width=32"

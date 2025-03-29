@@ -144,16 +144,6 @@ export function StudiesAndWork() {
                     </AnimateInView>
                 </div>
 
-                <AnimateInView animation="fadeIn" delay={0.5}>
-                    <div className="mt-12 text-center">
-                        <p className="text-muted-foreground mb-4">Vous souhaitez en savoir d'avantage ?</p>
-                        <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className="inline-block">
-                            <Button className="rounded-full">
-                                Télécharger mon CV <ArrowRight className="ml-2 h-4 w-4" />
-                            </Button>
-                        </motion.div>
-                    </div>
-                </AnimateInView>
             </section>
         </GridBackground>
     );

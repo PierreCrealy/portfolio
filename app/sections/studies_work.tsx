@@ -44,7 +44,7 @@ export function StudiesAndWork() {
             type: "work",
             title: "Stage Développeur Web",
             institution: "Kaféin Studio",
-            period: "Janvier 2024 - Février 2024",
+            period: "Jan. 2024 - Fev. 2024",
             description: "Mise en place d'évolutions sur diverses applications web.",
             icon: <Briefcase className="h-5 w-5" />,
         },
@@ -90,9 +90,13 @@ export function StudiesAndWork() {
                                             initial={{ opacity: 0, x: -20 }}
                                             animate={{ opacity: 1, x: 0 }}
                                         >
+                                            <Badge variant="outline" className="items-center gap-1 mb-2 md:hidden">
+                                                <Calendar className="h-3 w-3" />
+                                                <div className="ml-1">{education.period}</div>
+                                            </Badge>
                                             <div className="flex justify-between items-start mb-2">
                                                 <h4 className="font-bold text-lg">{education.title}</h4>
-                                                <Badge variant="outline" className="flex items-center gap-1">
+                                                <Badge variant="outline" className="items-center gap-1 hidden md:flex">
                                                     <Calendar className="h-3 w-3" />
                                                     {education.period}
                                                 </Badge>
@@ -128,9 +132,13 @@ export function StudiesAndWork() {
                                             initial={{ opacity: 0, x: 20 }}
                                             animate={{ opacity: 1, x: 0 }}
                                         >
+                                            <Badge variant="outline" className="items-center gap-1 mb-2 md:hidden">
+                                                <Calendar className="h-3 w-3" />
+                                                <div className="ml-1">{work.period}</div>
+                                            </Badge>
                                             <div className="flex justify-between items-start mb-2">
                                                 <h4 className="font-bold text-lg">{work.title}</h4>
-                                                <Badge variant="outline" className="flex items-center gap-1">
+                                                <Badge variant="outline" className="items-center gap-1 hidden md:flex">
                                                     <Calendar className="h-3 w-3" />
                                                     {work.period}
                                                 </Badge>

@@ -30,7 +30,7 @@ export function Landing()
                                 </FloatingElement>
                                 <FloatingElement duration={3} delay={0.5} yOffset={5}>
                                     <Badge className="absolute bottom-8 left-24 bg-pink-500 hover:bg-pink-600" variant="secondary">
-                                        Custom
+                                        Zythologie
                                     </Badge>
                                 </FloatingElement>
                                 <FloatingElement duration={4} delay={1} yOffset={5}>
@@ -43,7 +43,7 @@ export function Landing()
                                     animate={{ rotate: [0, 5, 0, -5, 0] }}
                                     transition={{ duration: 5, repeat: Number.POSITIVE_INFINITY }}
                                 >
-                                    <span className="font-bold">CRAFT</span>
+                                    <span className="font-bold">Craft</span>
                                 </motion.div>
                             </div>
                             <p className="text-lg text-muted-foreground">L'usage de nos outils nous définissent.</p>
@@ -56,9 +56,11 @@ export function Landing()
                                     </Link>
                                 </motion.div>
                                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                                    <Button variant="outline" className="rounded-full">
-                                        En apprendre plus
-                                    </Button>
+                                    <Link href="#" className="inline-block">
+                                        <Button variant="outline" className="rounded-full">
+                                            En apprendre plus
+                                        </Button>
+                                    </Link>
                                 </motion.div>
                             </div>
                         </div>

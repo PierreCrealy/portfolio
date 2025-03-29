@@ -22,16 +22,16 @@ export function Stats(){
                             whileHover={{ y: -5 }}
                             transition={{ type: "spring", stiffness: 300 }}
                         >
-                            <h3 className="text-4xl font-bold">??+</h3>
-                            <p className="text-sm text-muted-foreground">??</p>
+                            <h3 className="text-4xl font-bold">10+</h3>
+                            <p className="text-sm text-muted-foreground">Langages utilisés</p>
                         </motion.div>
                         <motion.div
                             className="text-center"
                             whileHover={{ y: -5 }}
                             transition={{ type: "spring", stiffness: 300 }}
                         >
-                            <h3 className="text-4xl font-bold">100+</h3>
-                            <p className="text-sm text-muted-foreground">Litres de thé bu</p>
+                            <h3 className="text-4xl font-bold">10+</h3>
+                            <p className="text-sm text-muted-foreground">Outils maitrisés</p>
                         </motion.div>
                     </div>
                 </section>

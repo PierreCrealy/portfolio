@@ -8,8 +8,10 @@ import { ThemeToggle } from "@/components/theme-toggle"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "GOOD DEVELOPER - Your Design & Development Partner",
-  description: "Professional web development, design, and consulting services",
+  title: "Pierre Bournazel - Hub In Progress",
+  description: "Pierre Bournazel, étudiant âgé de 22 ans et animé depuis toujours par ma passion et ma curiosité pour l’informatique." +
+      " C’est ce qui m’a poussé à développer des compétences via mes études ou en autodidacte." +
+      " Cela me permet aujourd’hui de m’exercer pour le plaisir, les études ou le travail.",
     generator: 'v0.dev'
 }
 

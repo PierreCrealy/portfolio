@@ -20,8 +20,8 @@ export function Landing()
                         <div className="space-y-6">
                             <div className="relative">
                                 <h1 className="text-6xl md:text-7xl lg:text-8xl font-black tracking-tight">
-                                    H<span className="text-pink-500">U</span>B<br />
-                                    IN PR<span className="text-blue-500">O</span>GRESS
+                                    PI<span className="text-pink-500">E</span>RRE<br />
+                                    B<span className="text-blue-500">O</span>URNAZEL
                                 </h1>
                                 <FloatingElement duration={4} yOffset={5}>
                                     <Badge className="absolute top-0 right-0 md:right-24 bg-blue-500 hover:bg-blue-600" variant="secondary">
@@ -49,7 +49,7 @@ export function Landing()
                             <p className="text-lg text-muted-foreground">L'usage de nos outils nous définissent.</p>
                             <div className="flex items-center gap-4">
                                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                                    <Link href="/docs/cv_pierre_bournazel_2025.pdf" download="pierre_bournazel_cv_2025.pdf" className="inline-block">
+                                    <Link href="docs/cv_pierre_bournazel_2025.pdf" download="pierre_bournazel_cv_2025.pdf" className="inline-block">
                                         <Button className="rounded-full">
                                             Télécharger mon CV
                                         </Button>

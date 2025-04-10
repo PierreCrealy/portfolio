@@ -1,7 +1,7 @@
 {
-  "name": "next-portfolio",
-  "homepage": "https://pierre-dev-app.fr",
-  "version": "0.1.0",
+  "name": "hub_in_progress",
+  "homepage": "https://landing.pierre-dev-app.fr",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",

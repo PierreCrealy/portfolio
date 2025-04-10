@@ -8,27 +8,27 @@ export function Services() {
 
     const images = [
         {
-            url: '/assets/gitlab.svg',
+            url: 'assets/gitlab.svg',
             title: `Gitlab`,
         },
         {
-            url: '/assets/jetbrains.svg',
+            url: 'assets/jetbrains.svg',
             title: `Jetbrains`,
         },
         {
-            url: '/assets/office.svg',
+            url: 'assets/office.svg',
             title: `Office 365`,
         },
         {
-            url: '/assets/vagrant.svg',
+            url: 'assets/vagrant.svg',
             title: `Vagrant`,
         },
         {
-            url: '/assets/notion.svg',
+            url: 'assets/notion.svg',
             title: `Notion`,
         },
         {
-            url: '/assets/insomnia.svg',
+            url: 'assets/insomnia.svg',
             title: `Insomnia`,
         },
 
